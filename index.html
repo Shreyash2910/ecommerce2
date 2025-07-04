@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Car Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h2 class="logo">SPEED</h2>
+                <div class="hamburger" id="hamburger">&#9776;</div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Super Car</a></li>
+                    <li><a href="#">Classic Car</a></li>
+                    <li><a href="#">Muscle Car</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="products">
+
+        <h2>Super Car</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images.jpg" alt="Bugatti">
+                <h3>Bugatti</h3>
+                <p>The Bugatti Chiron is an engineering marvel, seamlessly blending breathtaking speed with luxurious
+                    refinement. Handcrafted in France, this hypercar features a quad-turbocharged 8.0-liter W16 engine
+                    capable of reaching over 260 mph. Its sleek aerodynamic body, lavish interior, and advanced
+                    technology make it one of the most exclusive vehicles in the world—designed not just for
+                    performance, but to push the very limits of possibility.</p>
+                <button>Know More</button>
+            </div>
+
+            <div class="product">
+                <img src="ferrari_488_13_1498x1000.jpg" alt="Ferrari">
+                <h3>Ferrari</h3>
+                <p>Born from a legacy of racing excellence, the Ferrari 488 GTB redefines the mid-engine sports car.
+                    Powered by a 3.9-liter twin-turbocharged V8, it delivers raw yet controlled power with every turn.
+                    The bold exterior design, carbon-fiber components, and driver-focused cockpit make it as beautiful
+                    to look at as it is thrilling to drive. Every detail reflects the soul of Italian performance and
+                    precision.</p>
+                <button>Know More</button>
+            </div>
+        </div>
+
+
+        <h2>Classic Car</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/rolls.jpg" alt="Rolls Royce">
+                <h3>Rolls Royce</h3>
+                <p>The Rolls-Royce Silver Cloud embodies timeless elegance and craftsmanship. This British classic,
+                    often seen as a symbol of prestige, features hand-stitched interiors, polished wood trim, and a
+                    gracefully flowing silhouette. With its smooth ride and whisper-quiet V8 engine, it offers a royal
+                    experience from the golden age of motoring—ideal for collectors and connoisseurs of automotive
+                    luxury.</p>
+                <button>Know More</button>
+            </div>
+            <div class="product">
+                <img src="images/vintage.jpg" alt="BMWS">
+                <h3>BMW</h3>
+                <p>This classic BMW represents the perfect fusion of German engineering and timeless design. Renowned
+                    for its precise handling, rear-wheel drive, and understated luxury, it's a symbol of 1970s and 80s
+                    automotive excellence. With its signature kidney grille, round headlamps, and driver-centric
+                    cockpit, this BMW delivers a nostalgic experience with the reliability and sophistication the brand
+                    is known for. A refined choice for any classic car enthusiast.</p>
+                <button>Know More</button>
+            </div>
+        </div>
+
+        <h2>Muscle Car</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/mustang.jpg" alt="Ford Mustang">
+                <h3>Ford Mustang</h3>
+                <p>A legend of American roads, the Ford Mustang is the quintessential muscle car. With its aggressive
+                    stance, roaring V8 engine, and rear-wheel-drive dynamics, the Mustang promises power and presence in
+                    equal measure. Inside, modern features blend with retro styling, paying homage to decades of
+                    performance heritage. Whether on the street or the track, it’s built to thrill.</p>
+                <button>Know More</button>
+            </div>
+            <div class="product">
+                <img src="images/dodge.jpg" alt="Dodge Challenger">
+                <h3>Dodge Challenger</h3>
+                <p>The Dodge Challenger is a bold and brawny icon of muscle car culture. Its wide body, unmistakable
+                    grille, and throaty HEMI engine define its menacing road presence. Packed with modern tech and
+                    unapologetically old-school attitude, the Challenger offers explosive acceleration and a cabin built
+                    for comfort and command. A true rebel with horsepower to spare.</p>
+                <button>Know More</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Shreyash Store.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
